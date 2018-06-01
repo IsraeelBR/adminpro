@@ -13,6 +13,7 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { FormsModule } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts';
+import { AccountSettingsComponent } from './account-setting/account-setting.component';
 
 
 
@@ -24,7 +25,8 @@ import { ChartsModule } from 'ng2-charts';
         Graficas1Component,
         GraficoDonaComponent,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
