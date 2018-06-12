@@ -14,6 +14,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { FormsModule } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts';
 import { AccountSettingsComponent } from './account-setting/account-setting.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -26,7 +28,9 @@ import { AccountSettingsComponent } from './account-setting/account-setting.comp
         GraficoDonaComponent,
         IncrementadorComponent,
         GraficoDonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
